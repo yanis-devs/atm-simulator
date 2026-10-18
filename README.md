@@ -4,9 +4,13 @@
 
 ---
 
-## Features
-* **Multithreaded Simulation:** Simulates two independent ATM machines (`ATM-Machine-1` and `ATM-Machine-2`) trying to withdraw funds from the exact same bank account simultaneously.
-* **Data Race Demonstration:** Configurable toggle (`USE_SYNCHRONIZATION`) to showcase inconsistent states/race conditions versus thread-safe execution.
-* **Input Validation:** Robust error-handling to filter out invalid characters, negative numbers, and overdraft attempts.
+## Live Test in Browser (No Setup Required!)
+You can test this Java project instantly in your browser using GitHub Codespaces—no local Java setup required:
 
----
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/yanis-devs/atm-simulator)
+
+### How to Run:
+1. Click the **Open in GitHub Codespaces** button above.
+2. Once the cloud terminal opens, compile the Java source code:
+   ```bash
+   javac -d bin src/ATMsimMain.java
