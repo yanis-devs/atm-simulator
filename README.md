@@ -14,3 +14,4 @@ You can test this Java project instantly in your browser using GitHub Codespaces
 2. Once the cloud terminal opens, compile the Java source code:
    ```bash
    javac -d bin src/ATMsimMain.java
+   java -cp bin ATMsimMain
